@@ -45,7 +45,7 @@ def main():
     history = train_model(model=model,
                           train_ds=train_ds,
                           validation_ds=validation_ds,
-                          epochs=1)
+                          epochs=5)
 
     # evaluate model
     summarize_diagnostics(history)
